@@ -15,10 +15,10 @@ globalThis.$_ = utils;
 globalThis.goto = async tag => {
     let url;
     switch(tag) {
-        case 'github': url = 'https://github.com/VickScarlet/lifeRestart'; break;
-        case 'discord': url = 'https://discord.gg/U3qrf49NMQ'; break;
-        case 'sponsor_afd': url = 'https://afdian.net/@LifeRestart'; break;
-        case 'sponsor_ddf': url = 'https://dun.mianbaoduo.com/@vickscarlet'; break;
+        case 'github': url = 'https://github.com/rondsny/lifeRestart'; break;
+        case 'discord': url = 'https://github.com/rondsny/lifeRestart'; break;
+        case 'sponsor_afd': url = 'https://dun.mianbaoduo.com/@roon'; break;
+        case 'sponsor_ddf': url = 'https://dun.mianbaoduo.com/@roon'; break;
     }
     try {
         if(Laya.Browser.onIOS) {
