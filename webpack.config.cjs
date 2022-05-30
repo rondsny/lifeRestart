@@ -6,6 +6,7 @@ module.exports = {
   entry: './src/index.js',
   devtool: 'eval-cheap-module-source-map',
   devServer: {
+    disableHostCheck:true,
     static: [
       {
         directory: path.join(__dirname, 'public'),
